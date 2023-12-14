@@ -1,0 +1,27 @@
+*{
+	padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+}
+
+.btn button{
+	width: 200px;
+	height: 60px;
+	border-radius: 10px;
+	background: transparent;
+	color: #000000;
+	font-size: 16px;
+	font-weight: bolder;
+	border: 2px solid #ffffff;
+	box-shadow: 0 0 20px 2px #fffffff0;
+	transition: 0.06s;
+}
+
+.btn button:hover{
+	background: rgba(26, 174, 204, 0.756);
+	color: #010101f9;
+	box-shadow: 0 0 40px 2px color #11cf2d;
+    ;
+    border: 2px solid #21b5ba;
+	transition: 0s;
+}
